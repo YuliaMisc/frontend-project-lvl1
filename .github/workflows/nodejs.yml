@@ -1,5 +1,7 @@
+# Name of workflow
 name: Node CI
 
+# Trigger the workflow on push or pull request
 on:
   - push
   - pull_request
@@ -9,4 +11,6 @@ env:
 
 jobs:
   steps:
+    - run: make install
     - run: make lint
+    - run: make test
