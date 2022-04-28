@@ -4,7 +4,7 @@ name: Node CI
 on:
   - push
   - pull_request
-  - make lint
+  - run: make lint
   
 env:
   CI: true
