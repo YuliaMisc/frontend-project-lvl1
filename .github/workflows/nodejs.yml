@@ -1,10 +1,12 @@
-
 name: Node CI
 
 on:
   - push
   - pull_request
-  - run: make lint
-  
+
 env:
   CI: true
+
+jobs:
+  steps:
+    - run: make lint
