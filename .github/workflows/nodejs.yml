@@ -1,0 +1,10 @@
+
+name: Node CI
+
+on:
+  - push
+  - pull_request
+  - make lint
+  
+env:
+  CI: true
