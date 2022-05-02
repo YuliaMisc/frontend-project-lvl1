@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
 
-// eslint-disable-next-line consistent-return
 const parityCheck = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name?: ');
@@ -27,8 +26,8 @@ const parityCheck = () => {
         `'${answer}' is wrong answer ;(. Correct answer was 'no'. Let's try again, ${userName}!`
       );
     }
-    console.log(`Congratulations, ${userName}`);
   }
+  return console.log(`Congratulations, ${userName}`);
 };
 
 export default parityCheck;
