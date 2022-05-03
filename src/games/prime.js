@@ -1,8 +1,7 @@
 import generalGameLogic from '../index.js';
 import randomNumber from '../get-random.js';
 
-const rulesOfTheGame =
-  'Answer "yes" if given number is prime. Otherwise answer "no".';
+const rulesOfTheGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const checkPrimeNumber = (number) => {
   if (number < 2) {

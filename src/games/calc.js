@@ -23,9 +23,7 @@ const buildRound = () => {
   const randomNumberOne = randomNumber(0, 25);
   const randomNumberTwo = randomNumber(0, 25);
   const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
-  const correctAnswer = String(
-    operatorСheck(randomNumberOne, randomNumberTwo, randomOperator)
-  );
+  const correctAnswer = String(operatorСheck(randomNumberOne, randomNumberTwo, randomOperator));
   return [question, correctAnswer];
 };
 

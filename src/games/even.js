@@ -1,8 +1,7 @@
 import generalGameLogic from '../index.js';
 import randomNumber from '../get-random.js';
 
-const rulesOfTheGame =
-  'Answer "yes" if the number is even, otherwise answer "no".';
+const rulesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const checkForParity = (num) => {
   if (num % 2 === 0) {
