@@ -5,7 +5,7 @@ const rulesOfTheGame = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const operatorСheck = (num1, num2, operator) => {
+const checkOperator = (num1, num2, operator) => {
   if (operator === '+') {
     return num1 + num2;
   }
@@ -23,7 +23,7 @@ const buildRound = () => {
   const randomNumberOne = randomNumber(0, 25);
   const randomNumberTwo = randomNumber(0, 25);
   const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
-  const correctAnswer = String(operatorСheck(randomNumberOne, randomNumberTwo, randomOperator));
+  const correctAnswer = String(checkOperator(randomNumberOne, randomNumberTwo, randomOperator));
   return [question, correctAnswer];
 };
 
