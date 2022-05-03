@@ -1,4 +1,4 @@
-import gamesEngine from '../index.js';
+import generalGameLogic from '../index.js';
 import randomNumber from '../get-random.js';
 
 const rulesOfTheGame = 'What is the result of the expression?';
@@ -30,7 +30,7 @@ const buildRound = () => {
 };
 
 const calculator = () => {
-  gamesEngine(rulesOfTheGame, buildRound);
+  generalGameLogic(rulesOfTheGame, buildRound);
 };
 
 export default calculator;

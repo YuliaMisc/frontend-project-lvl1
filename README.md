@@ -4,6 +4,8 @@
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ
+even: https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ
 
-https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o
+calc: https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o
+
+gcd: https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW

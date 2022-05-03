@@ -1,4 +1,4 @@
-import gamesEngine from '../index.js';
+import generalGameLogic from '../index.js';
 import randomNumber from '../get-random.js';
 
 const rulesOfTheGame =
@@ -17,7 +17,7 @@ const buildRound = () => {
   return [question, correctAnswer];
 };
 const parityCheck = () => {
-  gamesEngine(rulesOfTheGame, buildRound);
+  generalGameLogic(rulesOfTheGame, buildRound);
 };
 
 export default parityCheck;
