@@ -19,7 +19,7 @@ const generalGameLogic = (rulesOfTheGame, buildRound) => {
     }
     console.log('Correct!');
   }
-  return console.log(`Congratulations, ${name}`);
+  return console.log(`Congratulations, ${name}!`);
 };
 
 export default generalGameLogic;
