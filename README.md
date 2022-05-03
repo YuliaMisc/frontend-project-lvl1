@@ -9,3 +9,5 @@ even: https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ
 calc: https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o
 
 gcd: https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW
+
+progression: https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1

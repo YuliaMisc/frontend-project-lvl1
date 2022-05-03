@@ -12,6 +12,7 @@ const nod = (a, b) => {
   }
   return nod(a - b, b);
 };
+
 const buildRound = () => {
   const randomNumOne = randomNumber(0, 100);
   const randomNumTwo = randomNumber(0, 100);
