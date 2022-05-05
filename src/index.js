@@ -2,6 +2,7 @@ import readlineSync from 'readline-sync';
 
 const numberOfRounds = 3;
 
+// eslint-disable-next-line consistent-return
 export default (rulesOfTheGame, buildRound) => {
   console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name?: ');
