@@ -25,5 +25,3 @@ const buildRound = () => {
 export default () => {
   runСommonLogic(rulesOfTheGame, buildRound);
 };
-
-
