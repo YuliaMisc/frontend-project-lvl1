@@ -2,7 +2,7 @@
 
 [![Actions Status](https://github.com/YuliaMisc/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/YuliaMisc/frontend-project-lvl1/actions)
 
-[![Actions Status](https://github.com/YuliaMisc/frontend-project-lvl1/workflows/nodejs/badge.svg)](https://github.com/YuliaMisc/frontend-project-lvl1/nodeis.yml)
+[![Actions Status](https://github.com/YuliaMisc/frontend-project-lvl1/workflows/Node CI/badge.svg)](https://github.com/YuliaMisc/frontend-project-lvl1/nodeis.yml)
 
 <a href="https://codeclimate.com/github/YuliaMisc/frontend-project-lvl1"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
