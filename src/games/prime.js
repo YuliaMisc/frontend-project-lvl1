@@ -1,9 +1,9 @@
-import generalGameLogic from '../index.js';
-import randomNumber from '../get-random.js';
+import runСommonLogic from '../index.js';
+import getRandomNumber from '../get-random.js';
 
 const rulesOfTheGame = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const checkPrimeNumber = (number) => {
+const isPrimeNumber = (number) => {
   if (number < 2) {
     return false;
   }
@@ -16,14 +16,14 @@ const checkPrimeNumber = (number) => {
 };
 
 const buildRound = () => {
-  const randomNum = randomNumber(0, 100);
-  const question = `${randomNum}`;
-  const correctAnswer = checkPrimeNumber(randomNum) ? 'yes' : 'no';
+  const number = getRandomNumber(0, 100);
+  const question = `${number}`;
+  const correctAnswer = isPrimeNumber(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
 
-const primeNumber = () => {
-  generalGameLogic(rulesOfTheGame, buildRound);
+export default () => {
+  runСommonLogic(rulesOfTheGame, buildRound);
 };
 
-export default primeNumber;
+

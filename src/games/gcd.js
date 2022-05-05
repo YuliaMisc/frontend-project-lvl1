@@ -1,28 +1,27 @@
-import generalGameLogic from '../index.js';
-import randomNumber from '../get-random.js';
+import runСommonLogic from '../index.js';
+import getRandomNumber from '../get-random.js';
 
 const rulesOfTheGame = 'Find the greatest common divisor of given numbers.';
 
-const getNod = (a, b) => {
+const getGcd = (a, b) => {
   if (a === b) {
     return a;
   }
   if (a < b) {
-    return getNod(a, b - a);
+    return getGcd(a, b - a);
   }
-  return getNod(a - b, b);
+  return getGcd(a - b, b);
 };
 
 const buildRound = () => {
-  const randomNumOne = randomNumber(0, 100);
-  const randomNumTwo = randomNumber(0, 100);
-  const question = `${randomNumOne} ${randomNumTwo}`;
-  const correctAnswer = String(getNod(randomNumOne, randomNumTwo));
+  const numberOne = getRandomNumber(0, 100);
+  const numberTwo = getRandomNumber(0, 100);
+  const question = `${numberOne} ${numberTwo}`;
+  const correctAnswer = String(getGcd(numberOne, numberTwo));
   return [question, correctAnswer];
 };
 
-const getCommonDivisor = () => {
-  generalGameLogic(rulesOfTheGame, buildRound);
+export default () => {
+  runСommonLogic(rulesOfTheGame, buildRound);
 };
 
-export default getCommonDivisor;

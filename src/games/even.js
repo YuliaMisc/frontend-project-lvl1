@@ -1,5 +1,5 @@
-import generalGameLogic from '../index.js';
-import randomNumber from '../get-random.js';
+import runСommonLogic from '../index.js';
+import getRandomNumber from '../get-random.js';
 
 const rulesOfTheGame = 'Answer "yes" if the number is even, otherwise answer "no".';
 
@@ -10,13 +10,13 @@ const checkForParity = (num) => {
   return false;
 };
 const buildRound = () => {
-  const randomNum = randomNumber(0, 100);
-  const question = `${randomNum}`;
-  const correctAnswer = checkForParity(randomNum) ? 'yes' : 'no';
+  const number = getRandomNumber(0, 100);
+  const question = `${number}`;
+  const correctAnswer = checkForParity(number) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
-const parityCheck = () => {
-  generalGameLogic(rulesOfTheGame, buildRound);
+export default () => {
+  runСommonLogic(rulesOfTheGame, buildRound);
 };
 
-export default parityCheck;
+

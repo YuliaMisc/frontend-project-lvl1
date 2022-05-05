@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import getCommonDivisor from '../src/games/gcd.js';
+import startGameGcd from '../src/games/gcd.js';
 
-getCommonDivisor();
+startGameGcd();

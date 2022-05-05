@@ -1,11 +1,11 @@
-import generalGameLogic from '../index.js';
-import randomNumber from '../get-random.js';
+import runСommonLogic from '../index.js';
+import getRandomNumber from '../get-random.js';
 
 const rulesOfTheGame = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const checkOperator = (num1, num2, operator) => {
+const getResultOperation = (num1, num2, operator) => {
   if (operator === '+') {
     return num1 + num2;
   }
@@ -19,16 +19,15 @@ const checkOperator = (num1, num2, operator) => {
 };
 
 const buildRound = () => {
-  const randomOperator = operators[randomNumber(0, operators.length)];
-  const randomNumberOne = randomNumber(0, 25);
-  const randomNumberTwo = randomNumber(0, 25);
-  const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
-  const correctAnswer = String(checkOperator(randomNumberOne, randomNumberTwo, randomOperator));
+  const operator = operators[getRandomNumber(0, operators.length)];
+  const numberOne = getRandomNumber(0, 25);
+  const numberTwo = getRandomNumber(0, 25);
+  const question = `${numberOne} ${operator} ${numberTwo}`;
+  const correctAnswer = String(getResultOperation(numberOne, numberTwo, operator));
   return [question, correctAnswer];
 };
 
-const calculator = () => {
-  generalGameLogic(rulesOfTheGame, buildRound);
+export default () => {
+  runСommonLogic(rulesOfTheGame, buildRound);
 };
 
-export default calculator;
