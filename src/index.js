@@ -20,4 +20,3 @@ export default (rulesOfTheGame, buildRound) => {
   }
   console.log(`Congratulations, ${name}!`);
 };
-
