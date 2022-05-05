@@ -19,7 +19,7 @@ const getResultOperation = (num1, num2, operator) => {
 };
 
 const buildRound = () => {
-  const operator = operators[getRandomNumber(0, operators.length)];
+  const operator = operators[getRandomNumber(0, operators.length - 1)];
   const numberOne = getRandomNumber(0, 25);
   const numberTwo = getRandomNumber(0, 25);
   const question = `${numberOne} ${operator} ${numberTwo}`;
