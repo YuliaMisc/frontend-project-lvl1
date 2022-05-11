@@ -19,5 +19,4 @@ export default (rulesOfTheGame, buildRound) => {
     console.log('Correct!');
   }
   console.log(`Congratulations, ${name}!`);
-
 };
