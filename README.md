@@ -15,16 +15,21 @@
 - To install a package from the operating system, use the command `npm link`.
 
 <h2>Brain-even</h2>
-<a href="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ"></a>
+To start the game enter brain-even
+<a href="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ" src="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ.svg"></a>
 
 <h2>Brain-calc</h2>
-<a href="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o"></a>
+To start the game enter brain-calc
+<a href="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o" src="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o.svg"></a>
 
 <h2>Brain-gcd</h2>
-<a href="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW"></a>
+To start the game enter brain-gcd
+<a href="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW" src="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW.svg"></a>
 
 <h2>Brain-progression</h2>
-<a href="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1"></a>
+To start the game enter brain-progression
+<a href="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1" src="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1.svg"></a>
 
 <h2>Brain-prime</h2>
-<a href="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW"></a>
+To start the game enter brain-prime
+<a href="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW" src="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW.svg"></a>
