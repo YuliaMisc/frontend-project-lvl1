@@ -16,21 +16,26 @@
 
 <h2>Brain-even</h2>
 To start the game enter brain-even
+
 <a href="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ" target="_blank"><img src="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ.svg" /></a>
 
 <h2>Brain-calc</h2>
 To start the game enter brain-calc
+
 <a href="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o" target="_blank"><img src="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o.svg" /></a>
 
 <h2>Brain-gcd</h2>
 To start the game enter brain-gcd
+
 <a href="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW" target="_blank"><img src="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW.svg" /></a>
 
 <h2>Brain-progression</h2>
 To start the game enter brain-progression
-<a href="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1" target="_blank"><img src="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1.svg" /></a>
+
+<a href="https://asciinema.org/a/pj9CYr2AHNtkGFbOICMwxF8ht" target="_blank"><img src="https://asciinema.org/a/pj9CYr2AHNtkGFbOICMwxF8ht.svg" /></a>
 
 <h2>Brain-prime</h2>
 To start the game enter brain-prime
+
 <a href="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW" target="_blank"><img src="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW.svg" /></a>
 
