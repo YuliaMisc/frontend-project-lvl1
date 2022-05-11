@@ -6,12 +6,25 @@
 
 <a href="https://codeclimate.com/github/YuliaMisc/frontend-project-lvl1"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
-even: https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ
+<h1 style='font-size: 20px;text-align: center;  font-weight: bold'>Brain games</h1>
+'Brain-games' includes five games to develop arithmetic skills. The player has to answer three questions correctly, in case of an error the game is stopped.
 
-calc: https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o
+<h2 style='font-size: 16px;text-align: center;  font-weight: bold'>Game setup:</h2>
+- Clone repository;
+- Execute the command `make install`;
+- To install a package from the operating system, use the command `npm link`.
 
-gcd: https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW
+<h2>Brain-even</h2>
+<a href="https://asciinema.org/a/3i8MiBr055WOnSxwAJiHgsybJ"></a>
 
-progression: https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1
+<h2>Brain-calc</h2>
+<a href="https://asciinema.org/a/JovX5aEbv0Q03k9gVJz8ZOl9o"></a>
 
-prime: https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW
+<h2>Brain-gcd</h2>
+<a href="https://asciinema.org/a/IlinWws3l60lkvtPDhK78oCjW"></a>
+
+<h2>Brain-progression</h2>
+<a href="https://asciinema.org/a/iRMX24e7rLNgWsQYYOZDOuos1"></a>
+
+<h2>Brain-prime</h2>
+<a href="https://asciinema.org/a/OHLNCOuTzqXQbBO8RjErP9keW"></a>
