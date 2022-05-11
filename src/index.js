@@ -13,10 +13,11 @@ export default (rulesOfTheGame, buildRound) => {
     console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (correctAnswer !== answer) {
-      return console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${name}!`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'. Let's try again, ${name}!`);
+      return;
     }
     console.log('Correct!');
   }
   console.log(`Congratulations, ${name}!`);
-  return;
+
 };
